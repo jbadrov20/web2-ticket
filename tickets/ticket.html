@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticket Detail</title>
+  <link rel="stylesheet" href="ticket.css">
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Ticket Detail</h1>
+        <p>View the details of your ticket below.</p>
+        <button id="logout" style="display: none;">Logout</button>
+    </header>
+    
+    <main>
+        <section class="ticket-section" id="ticketSection" style="display: none;">
+            <h2>Ticket Information</h2>
+            <p><strong>OIB:</strong> <span id="ticketVatin"></span></p>
+            <p><strong>Name:</strong> <span id="ticketName"></span></p>
+            <p><strong>Generated At:</strong> <span id="ticketTime"></span></p>
+            <p><strong>Logged in as:</strong> <span id="userName"></span></p>
+        </section>
+        
+        <section class="error-section" id="errorSection" style="display: none;">
+            <p class="error-message">Error: You need to be logged in to view this page.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; Ticket App</p>
+    </footer>
+    
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+    <script src="ticket.js"></script>
+</body>
+</html>
