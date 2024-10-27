@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     domain: "dev-8hl0yvtyxunzhqc3.eu.auth0.com",
     client_id: "DJqDHxzBc7gJZx4ZzgLH9K9lYOVkq7Aj",
     redirect_uri:
-      "https://web2-ticket.onrender.com:3000/tickets/d376b2df-5a78-4b03-b68c-d7a9fcb25dd8"
+      "https://web2-ticket.onrender.com/tickets/d376b2df-5a78-4b03-b68c-d7a9fcb25dd8"
   });
 
   // Check if the user is logged in
